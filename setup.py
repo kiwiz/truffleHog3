@@ -24,7 +24,7 @@ setup(
     include_package_data=True,
     python_requires=">=3.6",
     install_requires=[
-        "GitPython == 2.1.1",
+        "GitPython == 3.1.41",
     ],
     entry_points={
       "console_scripts": ["trufflehog3 = truffleHog3.cli:run"],
